@@ -1,3 +1,15 @@
+# bakerydemo-editor-guide
+
+A copy of Wagtail’s official [bakerydemo](https://github.com/wagtail/bakerydemo) demo site, meant to match our [Wagtail user guide](https://guide.wagtail.org/).
+
+## Guide screenshots
+
+Generated with https://github.com/thibaudcolas/wagtail-tooling/tree/main/docs-screenshots
+
+---
+
+Original project README.
+
 # Wagtail demo project
 
 This is a demonstration project for the amazing [Wagtail CMS](https://github.com/wagtail/wagtail).
