@@ -8,3 +8,5 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 WAGTAILADMIN_BASE_URL = "http://localhost:8000"
 
 ALLOWED_HOSTS = ["*"]
+
+WAGTAIL_USAGE_COUNT_ENABLED = True

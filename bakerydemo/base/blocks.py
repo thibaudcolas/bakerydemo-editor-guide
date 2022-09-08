@@ -6,6 +6,7 @@ from wagtail.blocks import (
     StructBlock,
     TextBlock,
 )
+from wagtail.contrib.table_block.blocks import TableBlock
 from wagtail.embeds.blocks import EmbedBlock
 from wagtail.images.blocks import ImageChooserBlock
 
@@ -77,3 +78,5 @@ class BaseStreamBlock(StreamBlock):
         icon="fa-s15",
         template="blocks/embed_block.html",
     )
+    table = TableBlock()
+
