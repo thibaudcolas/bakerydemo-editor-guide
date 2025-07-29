@@ -15,3 +15,5 @@ try:
     from .local import *  # noqa
 except ImportError:
     pass
+
+MIDDLEWARE.append("static_demo.middleware.AutoLoginMiddleware")
